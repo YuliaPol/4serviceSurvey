@@ -28,13 +28,13 @@ body {
   font-weight: normal;
   font-style: normal;
   font-size: 37px;
+  margin: 0px;
 
   #papa {
     max-width: 1000px;
     margin: auto;
 
     header.header {
-        margin-top: 40px;
       .wrp-top-text {
         display: flex;
         justify-content: center;
@@ -398,6 +398,22 @@ body {
               }
             }
           }
+          .answer-label-wrp {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            .label {
+              max-width: 20%;
+              min-width: 20%;
+              width: 20%;
+              padding: 10px;
+              font-size: 12px;
+              line-height: 16px;
+              text-align: center;
+              color: #909090;
+              box-sizing: border-box;
+            }
+          }
           .answer-radio {
             .radio-wrp {
               display: flex;
@@ -405,6 +421,13 @@ body {
               justify-content: flex-start;
               flex-wrap: wrap;
               padding-top: 25px;
+              &.radio-wrp-rows {
+                .radio-item {
+                  padding: 5px;
+                  margin-bottom: 10px;
+                  width: 100%;
+                }
+              }
               .radio-item {
                 padding-bottom: 10px;
                 padding-right: 15px;
@@ -429,6 +452,7 @@ body {
                   font-size: 16px;
                   line-height: 18px;
                   display: inline-block;
+                  cursor: pointer;
                   &::before {
                     content: "";
                     position: absolute;
@@ -1101,13 +1125,21 @@ body {
   }
 }
 @media (max-width: 768px) {
-  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp {
-    flex-wrap: wrap;
-    justify-content: center;
-    .answer-item {
-      width: 33.3%;
-      min-width: 33.3%;
-      max-height: 33.3%;
+  body #papa main.main form .question-wrapper .answer-label-wrp {
+    .label {
+      display: none;
+      &:last-child {
+        display: block;
+        max-width: 40%;
+        min-width: 150px;
+        text-align: right;
+      }
+      &:first-child {
+        display: block;
+        max-width: 40%;
+        min-width: 150px;
+        text-align: left;
+      }
     }
   }
 }
