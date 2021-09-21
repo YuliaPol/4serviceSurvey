@@ -1,0 +1,94 @@
+/*the container must be positioned relative:*/
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    border: solid 2px #cccccc;
+}
+.custom-select select {
+    display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+    background-color: #fff;
+    line-height: 30px;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    transition: 0.3s;
+    position: absolute;
+    display: inline-block;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 27px;
+    height: 14px;
+    background: url("../../img/selectarrow.png");
+    background-size: 27px;
+    background-repeat: no-repeat;
+    /*border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;*/
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    transform: rotate(180deg);
+}
+/*style the items (options), including the selected item:*/
+.select-items {
+}
+.select-items div,.select-selected {
+    color: #000000;
+    padding: 8px 16px;
+    cursor: pointer;
+    user-select: none;
+}
+/*style items (options):*/
+.select-items {
+    background-color: #ffffff;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    position: relative;
+    margin-left: -2px;
+    width: 100%;
+    border: solid 2px #cccccc !important;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1215px ) {
+    .select-items div, .select-selected {
+        color: #000000;
+        padding: 8px 16px;
+        cursor: pointer;
+        user-select: none;
+        line-height: 20px;
+    }.select-selected:after {
+    transform-origin: center;
+         transition: 0.3s;
+         position: absolute;
+         display: inline-block;
+         content: "";
+         top: 14px;
+         right: 10px;
+         width: 37px;
+         height: 14px;
+         background: url("../../img/selectarrow.png") no-repeat;
+    background-size: 24px;
+         /*border: 6px solid transparent;
+         border-color: #fff transparent transparent transparent;*/
+     }
+    /*point the arrow upwards when the select box is open (active):*/
+    .select-selected.select-arrow-active:after {
+        transform: rotate(180deg);
+    }
+}
+@media (max-width: 450px) {
+    .select-selected{
+        padding-right: 53px;
+    }
+}

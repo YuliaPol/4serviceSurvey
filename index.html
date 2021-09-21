@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Оцените Сервис Росбанка</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="script/libs/jquery-3.3.1.min.js"></script>
+    <!--<script src="script/libs/jquery.validate.min.js"></script>-->
+
+</head>
+
+<body>
+
+    <div id="papa" class="papa-background-1">
+
+        <!-- == Header Start == -->
+        <header class="header">
+            <div class="img-wrp">
+                <img src="img/head-banner_2.jpg" alt="HEADER-IMG">
+            </div>
+
+        </header>
+        <!-- ==  Header End  == -->
+
+        <!-- == Main Start == -->
+        <main class="main">
+            <form action="final.html" id="main-form">
+                <div dataquestion="1" class="question-wrapper" style="margin-bottom: 0px;">
+
+                    <div class="anser-wrp anser-inp-text-wrp">
+                        <div class="question-title flex-title">
+                            <span>1. Укажите Вашу фамилию и имя, пожалуйста</span>
+                        </div>
+                        <input type="text" name="q-1" data-reqired>
+                    </div>
+                    <div class="error-text">
+                        <p>Пожалуйста, выберите ответ</p>
+                    </div>
+                </div>
+                <div dataquestion="2" class="question-wrapper" style="margin-bottom: 0px; margin-top: 50px;">
+
+                    <div class="anser-wrp anser-inp-text-wrp">
+                        <div class="question-title flex-title">
+                            <span>2. Укажите название компании, которую Вы представляете</span>
+                        </div>
+                        <input type="text" name="q-2" data-reqired>
+                    </div>
+                    <div class="error-text">
+                        <p>Пожалуйста, выберите ответ</p>
+                    </div>
+                </div>
+                <div dataquestion="3" class="question-wrapper" style="margin-bottom: 0px; margin-top: 50px;">
+
+                    <div class="anser-wrp anser-range">
+                        <div class="range-cont">
+                            <ul>
+                                <div class="question-title flex-title">
+                                    <span>3. Насколько легко Вам взаимодействовать с 4Service?</span>
+                                </div>
+                                <li>
+                                    <div class="range-question-wrapper">
+                                        <div class="range-wrp">
+                                            <div class="anser-wrp anser-raio-0-5-wrp">
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" data-reqired id="q-3-1" name="q-3" value="1">
+                                                        <label for="q-3-1" class="btn btn-1">
+                                                            <div class="digit color1">1</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень сложно взаимодействовать, прилагаю очень много усилий
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-3-2" name="q-3" value="2">
+                                                        <label for="q-3-2" class="btn btn-2">
+                                                            <div class="digit color2">2</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее сложно взаимодействовать
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-3-3" name="q-3" value="3">
+                                                        <label for="q-3-3" class="btn btn-3">
+                                                            <div class="digit color3">3</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Прилагаю среднее количество
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-3-4" name="q-3" value="4">
+                                                        <label for="q-3-4" class="btn btn-4">
+                                                            <div class="digit color4">4</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее просто взаимодействовать
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-3-5" name="q-3" value="5">
+                                                        <label for="q-3-5" class="btn btn-5">
+                                                            <div class="digit color5">5</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень просто взаимодействовать
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="error-text">
+                                                <p>Пожалуйста, выберите ответ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div dataquestion="4" class="question-wrapper" style="margin-bottom: 0px; margin-top: 50px;">
+                    <div class="anser-wrp anser-range">
+                        <div class="range-cont">
+                            <ul>
+                                <div class="question-title flex-title">
+                                    <span>4. Оцените, насколько Вы удовлетворены сроками и равномерностью закрытия проектов?</span>
+                                </div>
+                                <li>
+                                    <div class="range-question-wrapper">
+                                        <div class="range-wrp">
+                                            <div class="anser-wrp anser-raio-0-5-wrp">
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" data-reqired id="q-4-1" name="q-4" value="1">
+                                                        <label for="q-4-1" class="btn btn-1">
+                                                            <div class="digit color1">1</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-4-2" name="q-4" value="2">
+                                                        <label for="q-4-2" class="btn btn-2">
+                                                            <div class="digit color2">2</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-4-3" name="q-4" value="3">
+                                                        <label for="q-4-3" class="btn btn-3">
+                                                            <div class="digit color3">3</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Отношусь нейтрально
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-4-4" name="q-4" value="4">
+                                                        <label for="q-4-4" class="btn btn-4">
+                                                            <div class="digit color4">4</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее доволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-4-5" name="q-4" value="5">
+                                                        <label for="q-4-5" class="btn btn-5">
+                                                            <div class="digit color5">5</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень доволен(а)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="error-text">
+                                                <p>Пожалуйста, выберите ответ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div dataquestion="5" class="question-wrapper" style="margin-bottom: 0px; margin-top: 50px;">
+
+                    <div class="anser-wrp anser-range">
+                        <div class="range-cont">
+                            <ul>
+                                <div class="question-title flex-title">
+                                    <span>5. Оцените, насколько Вы удовлетворены качеством предоставляемых данных?</span>
+                                </div>
+                                <li>
+                                    <div class="range-question-wrapper">
+                                        <div class="range-wrp">
+                                            <div class="anser-wrp anser-raio-0-5-wrp">
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" data-reqired id="q-5-1" name="q-5" value="1">
+                                                        <label for="q-5-1" class="btn btn-1">
+                                                            <div class="digit color1">1</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-5-2" name="q-5" value="2">
+                                                        <label for="q-5-2" class="btn btn-2">
+                                                            <div class="digit color2">2</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-5-3" name="q-5" value="3">
+                                                        <label for="q-5-3" class="btn btn-3">
+                                                            <div class="digit color3">3</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Отношусь нейтрально
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-5-4" name="q-5" value="4">
+                                                        <label for="q-5-4" class="btn btn-4">
+                                                            <div class="digit color4">4</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее доволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-5-5" name="q-5" value="5">
+                                                        <label for="q-5-5" class="btn btn-5">
+                                                            <div class="digit color5">5</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень доволен(а)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="error-text">
+                                                <p>Пожалуйста, выберите ответ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div dataquestion="6" class="question-wrapper" style="margin-bottom: 0px; margin-top: 50px;">
+                    <div class="anser-wrp anser-range">
+                        <div class="range-cont">
+                            <ul>
+                                <div class="question-title flex-title">
+                                    <span>6. Оцените, насколько Вы удовлетворены работой портала?</span>
+                                </div>
+                                <li>
+                                    <div class="range-question-wrapper">
+                                        <div class="range-wrp">
+                                            <div class="anser-wrp anser-raio-0-5-wrp">
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" data-reqired id="q-6-1" name="q-6" value="1">
+                                                        <label for="q-6-1" class="btn btn-1">
+                                                            <div class="digit color1">1</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-6-2" name="q-6" value="2">
+                                                        <label for="q-6-2" class="btn btn-2">
+                                                            <div class="digit color2">2</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-6-3" name="q-6" value="3">
+                                                        <label for="q-6-3" class="btn btn-3">
+                                                            <div class="digit color3">3</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Отношусь нейтрально
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-6-4" name="q-6" value="4">
+                                                        <label for="q-6-4" class="btn btn-4">
+                                                            <div class="digit color4">4</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее доволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-6-5" name="q-6" value="5">
+                                                        <label for="q-6-5" class="btn btn-5">
+                                                            <div class="digit color5">5</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень доволен(а)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="error-text">
+                                                <p>Пожалуйста, выберите ответ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div dataquestion="7" class="question-wrapper" style="margin-bottom: 0px; margin-top: 50px;">
+                    <div class="anser-wrp anser-range">
+                        <div class="range-cont">
+                            <ul>
+                                <div class="question-title flex-title">
+                                    <span>7. Оцените, насколько Вы удовлетворены работой проектной команды (решение текущих вопросов быстро и по существу)?
+                                    </span>
+                                </div>
+                                <li>
+                                    <div class="range-question-wrapper">
+                                        <div class="range-wrp">
+                                            <div class="anser-wrp anser-raio-0-5-wrp">
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" data-reqired id="q-7-1" name="q-7" value="1">
+                                                        <label for="q-7-1" class="btn btn-1">
+                                                            <div class="digit color1">1</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-7-2" name="q-7" value="2">
+                                                        <label for="q-7-2" class="btn btn-2">
+                                                            <div class="digit color2">2</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-7-3" name="q-7" value="3">
+                                                        <label for="q-7-3" class="btn btn-3">
+                                                            <div class="digit color3">3</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Отношусь нейтрально
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-7-4" name="q-7" value="4">
+                                                        <label for="q-7-4" class="btn btn-4">
+                                                            <div class="digit color4">4</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее доволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-7-5" name="q-7" value="5">
+                                                        <label for="q-7-5" class="btn btn-5">
+                                                            <div class="digit color5">5</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень доволен(а)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="error-text">
+                                                <p>Пожалуйста, выберите ответ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div dataquestion="8" class="question-wrapper" style="margin-bottom: 0px; margin-top: 50px;">
+                    <div class="anser-wrp anser-range">
+                        <div class="range-cont">
+                            <ul>
+                                <div class="question-title flex-title">
+                                    <span>8. Оцените, насколько Вы удовлетворены работой проектной команды (инициативность)?</span>
+                                </div>
+                                <li>
+                                    <div class="range-question-wrapper">
+                                        <div class="range-wrp">
+                                            <div class="anser-wrp anser-raio-0-5-wrp">
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" data-reqired id="q-8-1" name="q-8" value="1">
+                                                        <label for="q-8-1" class="btn btn-1">
+                                                            <div class="digit color1">1</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-8-2" name="q-8" value="2">
+                                                        <label for="q-8-2" class="btn btn-2">
+                                                            <div class="digit color2">2</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-8-3" name="q-8" value="3">
+                                                        <label for="q-8-3" class="btn btn-3">
+                                                            <div class="digit color3">3</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Отношусь нейтрально
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-8-4" name="q-8" value="4">
+                                                        <label for="q-8-4" class="btn btn-4">
+                                                            <div class="digit color4">4</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее доволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-8-5" name="q-8" value="5">
+                                                        <label for="q-8-5" class="btn btn-5">
+                                                            <div class="digit color5">5</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень доволен(а)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="error-text">
+                                                <p>Пожалуйста, выберите ответ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div dataquestion="9" class="question-wrapper" style="margin-bottom: 0px; margin-top: 50px;">
+                    <div class="anser-wrp anser-range">
+                        <div class="range-cont">
+                            <ul>
+                                <div class="question-title flex-title">
+                                    <span>9. Оцените, насколько Вы удовлетворены работой проектной команды (экспертиза и рекомендации)?</span>
+                                </div>
+                                <li>
+                                    <div class="range-question-wrapper">
+                                        <div class="range-wrp">
+                                            <div class="anser-wrp anser-raio-0-5-wrp">
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" data-reqired id="q-9-1" name="q-9" value="1">
+                                                        <label for="q-9-1" class="btn btn-1">
+                                                            <div class="digit color1">1</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-9-2" name="q-9" value="2">
+                                                        <label for="q-9-2" class="btn btn-2">
+                                                            <div class="digit color2">2</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее недоволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-9-3" name="q-9" value="3">
+                                                        <label for="q-9-3" class="btn btn-3">
+                                                            <div class="digit color3">3</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Отношусь нейтрально
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-9-4" name="q-9" value="4">
+                                                        <label for="q-9-4" class="btn btn-4">
+                                                            <div class="digit color4">4</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Скорее доволен(а)
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-9-5" name="q-9" value="5">
+                                                        <label for="q-9-5" class="btn btn-5">
+                                                            <div class="digit color5">5</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Очень доволен(а)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="error-text">
+                                                <p>Пожалуйста, выберите ответ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div dataquestion="11" class="question-wrapper" style="margin-bottom: 0px;">
+                    <div class="anser-wrp anser-range">
+                        <div class="range-cont">
+                            <ul>
+                                <div class="question-title flex-title">
+                                    <span>11. Насколько вероятно, что Вы порекомендуете нас коллегам и партнерам?</span>
+                                </div>
+                                <li>
+                                    <div class="range-question-wrapper">
+                                        <div class="range-wrp">
+                                            <div class="anser-wrp anser-raio-0-10-wrp">
+                                                <input type="radio" data-reqired id="q-11-0" name="q-11-1" value="0">
+                                                <label for="q-11-0" class="btn btn-1">
+                                                    <div class="digit color1">0</div>
+                                                </label>
+                
+                                                <input type="radio" data-reqired id="q-11-1" name="q-11-1" value="1">
+                                                <label for="q-11-1" class="btn btn-1">
+                                                    <div class="digit color2">1</div>
+                                                </label>
+                
+                                                <input type="radio" id="q-11-2" name="q-11-1" value="2">
+                                                <label for="q-11-2" class="btn btn-2">
+                                                    <div class="digit color3">2</div>
+                                                </label>
+                
+                                                <input type="radio" id="q-11-3" name="q-11-1" value="3">
+                                                <label for="q-11-3" class="btn btn-3">
+                                                    <div class="digit color4">3</div>
+                                                </label>
+                
+                                                <input type="radio" id="q-11-4" name="q-11-1" value="4">
+                                                <label for="q-11-4" class="btn btn-4">
+                                                    <div class="digit color5">4</div>
+                                                </label>
+                
+                                                <input type="radio" id="q-11-5" name="q-11-1" value="5">
+                                                <label for="q-11-5" class="btn btn-5">
+                                                    <div class="digit color6">5</div>
+                                                </label>
+                                                <input type="radio" id="q-11-6" name="q-11-1" value="6">
+                                                <label for="q-11-6" class="btn btn-5">
+                                                    <div class="digit color7">6</div>
+                                                </label>
+                                                <input type="radio" id="q-11-7" name="q-11-1" value="7">
+                                                <label for="q-11-7" class="btn btn-5">
+                                                    <div class="digit color8">7</div>
+                                                </label>
+                                                <input type="radio" id="q-11-8" name="q-11-1" value="8">
+                                                <label for="q-11-8" class="btn btn-5">
+                                                    <div class="digit color9">8</div>
+                                                </label>
+                                                <input type="radio" id="q-11-9" name="q-11-1" value="9">
+                                                <label for="q-11-9" class="btn btn-5">
+                                                    <div class="digit color10">9</div>
+                                                </label>
+                                                <input type="radio" id="q-11-10" name="q-11-1" value="10">
+                                                <label for="q-11-10" class="btn btn-5">
+                                                    <div class="digit color11">10</div>
+                                                </label>
+                                            </div>
+                                            <div class="error-text">
+                                                <p>Пожалуйста, выберите ответ</p>
+                                            </div>
+                                        </div>
+                                        <div class="point-range">
+                                            <span style="text-align: left;">0 - точно не порекомендую</span>
+                                            <span style="text-align: center;">7 - возможно, порекомендую</span>
+                                            <span style="text-align: right;">10 - точно порекомендую</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div dataquestion="12" class="question-wrapper" style="margin-bottom: 0px; margin-top: 50px;">
+                    <div class="anser-wrp anser-range">
+                        <div class="range-cont">
+                            <ul>
+                                <div class="question-title flex-title">
+                                    <span>12. Как изменилось Ваше отношение к 4Service/отношение коллег Вашей компании со времени нашего первого контакта?</span>
+                                </div>
+                                <li>
+                                    <div class="range-question-wrapper">
+                                        <div class="range-wrp">
+                                            <div class="anser-wrp anser-raio-0-5-wrp">
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" data-reqired id="q-12-1" name="q-12" value="1">
+                                                        <label for="q-12-1" class="btn btn-1">
+                                                            <div class="digit color1">1</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Отношение к 4Service сильно ухудшилось
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-12-2" name="q-12" value="2">
+                                                        <label for="q-12-2" class="btn btn-2">
+                                                            <div class="digit color2">2</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Отношение к 4Service немного ухудшилось
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-12-3" name="q-12" value="3">
+                                                        <label for="q-12-3" class="btn btn-3">
+                                                            <div class="digit color3">3</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Отношение к 4Service осталось на таком же уровне
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-12-4" name="q-12" value="4">
+                                                        <label for="q-12-4" class="btn btn-4">
+                                                            <div class="digit color4">4</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Отношение к 4Service немного улучшилось
+                                                    </div>
+                                                </div>
+                                                <div class="answer-item">
+                                                    <div class="top">
+                                                        <input type="radio" id="q-12-5" name="q-12" value="5">
+                                                        <label for="q-12-5" class="btn btn-5">
+                                                            <div class="digit color5">5</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="label">
+                                                        Отношение к 4Service сильно улучшилось
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="error-text">
+                                                <p>Пожалуйста, выберите ответ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div dataquestion="13" class="question-wrapper" style="margin-bottom: 0px; margin-top: 50px;">
+                    <div class="anser-wrp answer-radio">
+                        <div class="question-title flex-title">
+                            <span>13. Как изменилось Ваше отношение к 4Service/отношение коллег Вашей компании со времени нашего первого контакта?</span>
+                        </div>
+                        <div class="radio-wrp">
+                            <div class="radio-item">
+                                <input type="radio" data-reqired id="q-13-1" name="q-13" value="Точно да">
+                                <label for="q-13-1" class="radio-label">
+                                    Точно да
+                                </label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" data-reqired id="q-13-2" name="q-13" value="Cкорее да">
+                                <label for="q-13-2" class="radio-label">
+                                    Cкорее да
+                                </label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" data-reqired id="q-13-3" name="q-13" value="Затрудняюсь ответить">
+                                <label for="q-13-3" class="radio-label">
+                                    Затрудняюсь ответить
+                                </label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio"data-reqired id="q-13-4" name="q-13" value="Скорее нет">
+                                <label for="q-13-4" class="radio-label">
+                                    Скорее нет
+                                </label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" data-reqired id="q-13-5" name="q-13" value="Точно нет">
+                                <label for="q-13-5" class="radio-label">
+                                    Точно нет
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="error-text">
+                        <p>Пожалуйста, выберите ответ</p>
+                    </div>
+                </div>
+                <div dataquestion="14" class="question-wrapper" style="margin-bottom: 0px; margin-top: 50px;">
+                    <div class="anser-wrp answer-radio">
+                        <div class="question-title flex-title">
+                            <span>14. Вы согласны, что Вам НЕ пришлось прикладывать много усилии?</span>
+                        </div>
+                        <div class="radio-wrp">
+                            <div class="radio-item">
+                                <input type="radio" data-reqired id="q-14-1" name="q-14" value="Точно да">
+                                <label for="q-14-1" class="radio-label">
+                                    Точно да
+                                </label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" data-reqired id="q-14-2" name="q-14" value="Cкорее да">
+                                <label for="q-14-2" class="radio-label">
+                                    Cкорее да
+                                </label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" data-reqired id="q-14-3" name="q-14" value="Затрудняюсь ответить">
+                                <label for="q-14-3" class="radio-label">
+                                    Затрудняюсь ответить
+                                </label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" data-reqired id="q-14-4" name="q-14" value="Скорее нет">
+                                <label for="q-14-4" class="radio-label">
+                                    Скорее нет
+                                </label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" data-reqired id="q-14-5" name="q-14" value="Точно нет">
+                                <label for="q-14-5" class="radio-label">
+                                    Точно нет
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="error-text">
+                        <p>Пожалуйста, выберите ответ</p>
+                    </div>
+                </div>
+                <div class="submit-wrapper">
+                    <input type="submit" id="submit" value="ОТПРАВИТЬ">
+                </div>
+            </form>
+           <p class="thanks-message">
+               Спасибо, что помогаете нам стать лучше!
+           </p>
+        </main>
+        <!-- ==  Main End  == -->
+
+        <!-- == Footer Start == -->
+        <footer class="footer">
+            <div class="footer-logo-wrapper">
+                <!--<img src="img/logo.png" alt="FOOTER-LOGO" class="footer-logo">-->
+            </div>
+        </footer>
+        <!-- ==  Footer End  == -->
+    </div>
+    <script src="script/validRadio.js"></script>
+    <style>
+        @media (max-width: 576px){
+            .error-text p{
+                margin-top: 0px !important;
+            }
+        }
+    </style>
+</body>
+</html>

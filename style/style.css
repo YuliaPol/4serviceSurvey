@@ -1,0 +1,1627 @@
+@import url(c:\Users\user\Documents\spectra\4serviceSurvey\4ServiceSurvey\font\Montserrat\stylesheet.css);
+textarea,
+select,
+input {
+  font-family: "Montserrat";
+}
+
+textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+label.error-label {
+  display: block;
+  color: #e60028;
+}
+
+.erorore-txt::-webkit-input-placeholder {
+  color: #e60028 !important;
+}
+
+.erorore-txt::-moz-placeholder {
+  color: #e60028 !important;
+}
+
+.erorore-txt:-ms-input-placeholder {
+  color: #e60028 !important;
+}
+
+.erorore-txt::-ms-input-placeholder {
+  color: #e60028 !important;
+}
+
+.erorore-txt::placeholder {
+  color: #e60028 !important;
+}
+
+.mb-10 {
+  margin-top: 10px !important;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 37px;
+}
+
+body #papa {
+  max-width: 1000px;
+  margin: auto;
+}
+
+body #papa header.header {
+  margin-top: 40px;
+}
+
+body #papa header.header .wrp-top-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
+body #papa header.header .wrp-top-text span {
+  line-height: 60px;
+  padding-left: 50px;
+  border-left: 2px solid #e60028;
+  font-size: 27px;
+}
+
+body #papa header.header .img-wrp {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #papa header.header .img-wrp img {
+  max-width: 100%;
+}
+
+body #papa main.main {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body #papa main.main .title {
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: 800;
+  font-family: 'Montserrat';
+}
+
+body #papa main.main .title .subtitle {
+  text-align: center;
+  font-size: 17px;
+  text-transform: none;
+}
+
+body #papa main.main .title-line {
+  margin: auto;
+  max-width: 60%;
+  margin-bottom: 40px;
+}
+
+body #papa main.main form .question-wrapper label.error-label {
+  margin-top: 20px;
+  padding-left: 50px;
+}
+
+body #papa main.main form .question-wrapper .question-title.flex-title {
+  font-size: 26px;
+  font-weight: bold;
+  width: 100%;
+  text-align: left;
+  color: #393838;
+}
+
+body #papa main.main form .question-wrapper .question-title.flex-title span.question-number {
+  margin-right: 10px;
+}
+
+body #papa main.main form .question-wrapper .question-title.flex-title .title-left-padding p {
+  font-style: italic;
+  font-size: 15px;
+  color: #8a8989;
+}
+
+body #papa main.main form .question-wrapper .sub_question {
+  color: #393838;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp .two-answers-wrapp {
+  padding-left: 30px;
+  font-size: 21px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp .two-answers-wrapp .answer-subtitle {
+  padding-top: 10px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp .two-answers-wrapp .answer-text {
+  padding: 0px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp .two-answers-wrapp .erorore-txt::-webkit-input-placeholder {
+  color: #e60028;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp .two-answers-wrapp .erorore-txt::-moz-placeholder {
+  color: #e60028;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp .two-answers-wrapp .erorore-txt:-ms-input-placeholder {
+  color: #e60028;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp .two-answers-wrapp .erorore-txt::-ms-input-placeholder {
+  color: #e60028;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp .two-answers-wrapp .erorore-txt::placeholder {
+  color: #e60028;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp input.inp-radio.inp-radio-red {
+  /*display: none;*/
+  opacity: 0;
+  margin: 0;
+  max-width: 0px;
+  min-width: 0px;
+  max-height: 0px;
+  min-height: 0px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp label .red-round {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #8a8989 !important;
+  border-radius: 50%;
+  position: relative;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp label .radio-text {
+  font-size: 23px;
+  padding-left: 20px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp input:checked + label > .red-round:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  background: #8a8989 !important;
+  border-radius: 50%;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp .question-title {
+  padding-bottom: 15px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"] {
+  min-width: 100%;
+  font-size: 19px;
+  font-style: italic;
+  line-height: 32px;
+  padding: 5px 20px;
+  color: #333333;
+  border-radius: 4px;
+  border: 2px solid #8a8989;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::-webkit-input-placeholder {
+  color: #d6d3d3;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::-moz-placeholder {
+  color: #d6d3d3;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]:-ms-input-placeholder {
+  color: #d6d3d3;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::-ms-input-placeholder {
+  color: #d6d3d3;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::placeholder {
+  color: #d6d3d3;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-select-wrp .custom-select {
+  font-size: 18px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio'] {
+  opacity: 0;
+  display: none;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label {
+  cursor: pointer;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .digit {
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  min-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .color1 {
+  border: 1.5px solid #8c241c;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .color2 {
+  border: 1.5px solid #9f2c21;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .color3 {
+  border: 1.5px solid #c13729;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .color4 {
+  border: 1.5px solid #d1461b;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .color5 {
+  border: 1.5px solid #ec6d16;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .color6 {
+  border: 1.5px solid #fea016;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .color7 {
+  border: 1.5px solid #ebeb1b;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .color8 {
+  border: 1.5px solid #5ad45a;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .color9 {
+  border: 1.5px solid #25c07c;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .color10 {
+  border: 1.5px solid #2c9c2c;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .color11 {
+  border: 1.5px solid #167f22;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .error {
+  background-color: red;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .digit {
+  border-color: #ed3945;
+  font-weight: 500;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .color1 {
+  border-color: #8c241c;
+  background: #8c241c;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .color2 {
+  border-color: #9f2c21;
+  background: #9f2c21;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .color3 {
+  border-color: #c13729;
+  background: #c13729;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .color4 {
+  border-color: #d1461b;
+  background: #d1461b;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .color5 {
+  border-color: #ec6d16;
+  background: #ec6d16;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .color6 {
+  border-color: #fea016;
+  background: #fea016;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .color7 {
+  border-color: #ebeb1b;
+  background: #ebeb1b;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .color8 {
+  border-color: #5ad45a;
+  background: #5ad45a;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .color9 {
+  border-color: #25c07c;
+  background: #25c07c;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .color10 {
+  border-color: #2c9c2c;
+  background: #2c9c2c;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio']:checked + label .color11 {
+  border-color: #167f22;
+  background: #167f22;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp .answer-item {
+  max-width: 20%;
+  min-width: 20%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp .answer-item .label {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  max-width: 150px;
+  color: #909090;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp input[type='radio'] {
+  opacity: 0;
+  display: none;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp label {
+  cursor: pointer;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp label .digit {
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  min-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp label .color1 {
+  border: 1.5px solid #8c241c;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp label .color2 {
+  border: 1.5px solid #d1461b;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp label .color3 {
+  border: 1.5px solid #fea016;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp label .color4 {
+  border: 1.5px solid #25c07c;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp label .color5 {
+  border: 1.5px solid #167f22;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp label .error {
+  background-color: red;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp input[type='radio']:checked + label .digit {
+  border-color: #ed3945;
+  font-weight: 500;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp input[type='radio']:checked + label .color1 {
+  border-color: #8c241c;
+  background: #8c241c;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp input[type='radio']:checked + label .color2 {
+  border-color: #d1461b;
+  background: #d1461b;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp input[type='radio']:checked + label .color3 {
+  border-color: #fea016;
+  background: #fea016;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp input[type='radio']:checked + label .color4 {
+  border-color: #25c07c;
+  background: #25c07c;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp input[type='radio']:checked + label .color5 {
+  border-color: #167f22;
+  background: #167f22;
+}
+
+body #papa main.main form .question-wrapper .answer-radio .radio-wrp {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-top: 25px;
+}
+
+body #papa main.main form .question-wrapper .answer-radio .radio-wrp .radio-item {
+  padding-bottom: 10px;
+  padding-right: 15px;
+  width: 20%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body #papa main.main form .question-wrapper .answer-radio .radio-wrp .radio-item input[type=radio] {
+  display: none;
+}
+
+body #papa main.main form .question-wrapper .answer-radio .radio-wrp .radio-item input[type=radio]:checked + label::before {
+  background: #1e0040;
+}
+
+body #papa main.main form .question-wrapper .answer-radio .radio-wrp .radio-item label {
+  padding-left: 25px;
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  display: inline-block;
+}
+
+body #papa main.main form .question-wrapper .answer-radio .radio-wrp .radio-item label::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 15px;
+  height: 15px;
+  min-width: 15px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  -webkit-transition: background 0.3s ease-in;
+  -o-transition: background 0.3s ease-in;
+  transition: background 0.3s ease-in;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea textarea {
+  padding-left: 10px;
+  padding-top: 17px;
+  margin: 20px 0;
+  width: 65%;
+  min-height: 33px;
+  border: 1.5px solid #3b3e41;
+  font-size: 17px;
+  outline: none;
+  line-height: 16px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea textarea::-webkit-input-placeholder {
+  color: #8a8989;
+  font-size: 13px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea textarea::-moz-placeholder {
+  color: #8a8989;
+  font-size: 13px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea textarea:-ms-input-placeholder {
+  color: #8a8989;
+  font-size: 13px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea textarea::-ms-input-placeholder {
+  color: #8a8989;
+  font-size: 13px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea textarea::placeholder {
+  color: #8a8989;
+  font-size: 13px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea .erore-text::-webkit-input-placeholder {
+  color: #e60028;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea .erore-text::-moz-placeholder {
+  color: #e60028;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea .erore-text:-ms-input-placeholder {
+  color: #e60028;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea .erore-text::-ms-input-placeholder {
+  color: #e60028;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea .erore-text::placeholder {
+  color: #e60028;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-textartea label.error-label {
+  padding-left: 0px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont {
+  width: 100%;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont .question-block {
+  line-height: 32px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont .question-block .radio_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont .question-block .radio_container .radio__option {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont .question-block .radio_container .answer {
+  font-size: 18px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont .question-block .radio_container .checkmark {
+  position: absolute;
+  top: 9px;
+  left: 30px;
+  height: 13px;
+  width: 13px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont .question-block .radio_container input:checked ~ .checkmark:before {
+  content: '';
+  width: 8.5px;
+  height: 8.5px;
+  padding: 3px;
+  position: absolute;
+  background: #ed3945;
+  border: 1px solid #ed3945;
+  left: calc( 50% - 8px);
+  top: calc( 50% - 8px);
+  border-radius: 50%;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont .my-error-text {
+  text-align: right;
+  font-size: 21px;
+  color: #e60028;
+  display: none;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul {
+  list-style: none;
+  padding: 0px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > h6 {
+  font-size: 17px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li {
+  position: relative;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .range-question {
+  font-size: 18px;
+  min-width: 60%;
+  max-width: 60%;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .range-wrp {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .point-range {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+  padding-top: 15px;
+  color: #909090;
+  width: 100%;
+}
+
+body #papa main.main form .question-wrapper .error-text {
+  text-align: right;
+  font-size: 21px;
+  color: #e60028;
+  display: none;
+}
+
+body #papa main.main form .contacts {
+  font-size: 16px;
+}
+
+body #papa main.main form .contacts .contact-wrapper {
+  margin-top: 10px;
+}
+
+body #papa main.main form .contacts .contact-wrapper .contacts-name-area {
+  border: none;
+  border-bottom: 1px solid #3b3e41;
+  outline: none;
+  font-size: 16px;
+  height: 20px;
+  margin-left: 76px;
+}
+
+body #papa main.main form .contacts .contact-wrapper .contacts-company-area {
+  border: none;
+  border-bottom: 1px solid #3b3e41;
+  outline: none;
+  font-size: 16px;
+  height: 20px;
+  margin-left: 40px;
+}
+
+body #papa main.main form .submit-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0;
+}
+
+body #papa main.main form .submit-wrapper input[type="submit"] {
+  cursor: pointer;
+  font-size: 23px;
+  min-width: 250px;
+  line-height: 40px;
+  color: #ed3945;
+  background: transparent;
+  border: 1px solid #ed3945;
+  border-radius: 5px;
+  font-style: normal;
+  outline: none;
+  padding: 5px 0;
+}
+
+body #papa main.main .bottom-line {
+  margin: auto;
+  max-width: 80%;
+  margin-bottom: 80px;
+}
+
+body #papa main.main .thanks-message {
+  text-align: left;
+  font-family: 'Montserrat';
+  color: #393838;
+  font-size: 25px;
+}
+
+body #papa footer.footer {
+  margin: 40px 0;
+}
+
+body #papa footer.footer .footer-logo-wrapper img {
+  max-width: 280px;
+}
+
+@media (max-width: 1215px) {
+  body {
+    font-family: "Montserrat";
+    font-size: 27px;
+    padding: 50px;
+  }
+  body #papa {
+    max-width: 926px;
+    margin: auto;
+  }
+  body #papa header.header .wrp-top-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 60px;
+  }
+  body #papa header.header .img-wrp img {
+    max-width: 100%;
+  }
+  body #papa main.main .title {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 70px 0;
+    text-align: center;
+  }
+  body #papa main.main .title-line {
+    margin: auto;
+    max-width: 60%;
+    margin-bottom: 80px;
+  }
+  body #papa main.main form .question-wrapper .question-title {
+    font-size: 20px;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title span.question-number {
+    margin-right: 10px;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title .title-left-padding p {
+    font-style: italic;
+    font-size: 18px;
+    color: #8a8989;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title .title-left-padding .contacts-data {
+    padding-left: 76px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp input.inp-radio.inp-radio-red {
+    display: none;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp label .red-round {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e60028;
+    border-radius: 50%;
+    position: relative;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp label .radio-text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp input:checked + label > .red-round:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background: #e60028;
+    border-radius: 50%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"] {
+    min-width: 90%;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 25px;
+    padding: 10px 20px;
+    color: #333333;
+    border-radius: 4px;
+    border: 1px solid #8a8989;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::-webkit-input-placeholder {
+    color: #d6d3d3;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::-moz-placeholder {
+    color: #d6d3d3;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]:-ms-input-placeholder {
+    color: #d6d3d3;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::-ms-input-placeholder {
+    color: #d6d3d3;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::placeholder {
+    color: #d6d3d3;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-select-wrp .custom-select {
+    width: 80% !important;
+    font-size: 20px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio'] {
+    opacity: 0;
+    display: none;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label {
+    cursor: pointer;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .digit {
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    min-height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul {
+    list-style: none;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li {
+    position: relative;
+    padding: 20px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .range-question {
+    font-size: 20px;
+    min-width: 100%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .range-wrp {
+    margin-top: 30px;
+    min-width: 100%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background: #8a8989;
+    border-radius: 50%;
+    left: -40px;
+    top: 29px;
+  }
+  body #papa main.main form .submit-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 100px 0;
+  }
+  body #papa main.main .bottom-line {
+    margin: auto;
+    max-width: 80%;
+    margin-bottom: 80px;
+  }
+  body #papa footer.footer {
+    margin: 40px 0;
+    padding: 0 22px;
+  }
+}
+
+@media (max-width: 830px) {
+  body {
+    font-family: "Montserrat";
+    font-size: 27px;
+    padding: 50px;
+  }
+  body #papa {
+    max-width: 1326px;
+    margin: auto;
+  }
+  body #papa header.header .wrp-top-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 60px;
+  }
+  body #papa header.header .wrp-top-text span {
+    line-height: 90px;
+    padding-left: 50px;
+    border-left: 2px solid #e60028;
+    font-size: 37px;
+  }
+  body #papa header.header .img-wrp img {
+    max-width: 100%;
+  }
+  body #papa main.main .title {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 20px 0;
+    text-align: center;
+  }
+  body #papa main.main .title-line {
+    margin: auto;
+    max-width: 60%;
+    margin-bottom: 80px;
+  }
+  body #papa main.main form .question-wrapper .question-title {
+    font-size: 20px;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title span.question-number {
+    margin-right: 10px;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title .title-left-padding p {
+    font-style: italic;
+    font-size: 18px;
+    color: #8a8989;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp input.inp-radio.inp-radio-red {
+    display: none;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp label .red-round {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp label .radio-text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp input:checked + label > .red-round:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"] {
+    min-width: 100%;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 25px;
+    padding: 10px 20px;
+    color: #333333;
+    border-radius: 4px;
+    border: 1px solid #8a8989;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::-webkit-input-placeholder {
+    color: #d6d3d3;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::-moz-placeholder {
+    color: #d6d3d3;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]:-ms-input-placeholder {
+    color: #d6d3d3;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::-ms-input-placeholder {
+    color: #d6d3d3;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-inp-text-wrp input[type="text"]::placeholder {
+    color: #d6d3d3;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-select-wrp .custom-select {
+    width: 80% !important;
+    font-size: 20px;
+  }
+  body #papa main.main form .question-wrapper .answer-radio .radio-wrp .radio-item {
+    width: 33.3%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio'] {
+    opacity: 0;
+    display: none;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label {
+    cursor: pointer;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .digit {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    min-height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp label .digit {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    min-height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont {
+    width: 100%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul {
+    list-style: none;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > h5 {
+    margin: 0px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li {
+    width: 100%;
+    position: relative;
+    padding: 0 20px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .range-question {
+    font-size: 20px;
+    min-width: 100%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .range-wrp {
+    margin-top: 30px;
+    min-width: 100%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-textartea textarea {
+    width: 90%;
+  }
+  body #papa main.main form .submit-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 100px 0;
+  }
+  body #papa main.main .bottom-line {
+    margin: auto;
+    max-width: 80%;
+    margin-bottom: 80px;
+  }
+  body #papa footer.footer {
+    margin: 40px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp .answer-item {
+    width: 33.3%;
+    min-width: 33.3%;
+    max-height: 33.3%;
+  }
+}
+
+@media (max-width: 576px) {
+  body #papa main.main form .question-wrapper .answer-radio .radio-wrp .radio-item {
+    width: 100%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-textartea textarea {
+    display: block;
+    margin: 30px auto;
+    line-height: 16px;
+  }
+  body #papa main.main form .question-wrapper .error-text {
+    font-size: 17px;
+    margin-top: 0px !important;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont .my-error-text {
+    font-size: 17px;
+    font-weight: normal;
+  }
+  body {
+    font-family: "Montserrat";
+    font-size: 27px;
+    padding: 10px;
+  }
+  body #papa {
+    max-width: 1326px;
+    margin: auto;
+  }
+  body #papa header.header .wrp-top-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 20px;
+  }
+  body #papa header.header .wrp-top-text span {
+    line-height: 37px;
+    padding-left: 50px;
+    border-left: 2px solid #e60028;
+    font-size: 20px;
+  }
+  body #papa header.header .img-wrp img {
+    max-width: 100%;
+  }
+  body #papa main.main .title {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 17px 0;
+    text-align: center;
+  }
+  body #papa main.main .title-line {
+    margin: auto;
+    max-width: 60%;
+    margin-bottom: 80px;
+  }
+  body #papa main.main form {
+    padding-right: 10px;
+  }
+  body #papa main.main form .question-wrapper {
+    margin-bottom: 40px;
+  }
+  body #papa main.main form .question-wrapper .question-title {
+    font-size: 18px;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title span.question-number {
+    min-width: 22px;
+    margin-right: 10px;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title .title-left-padding p {
+    font-style: italic;
+    font-size: 16px;
+    color: #8a8989;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp {
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp input.inp-radio.inp-radio-red {
+    display: none;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp label .red-round {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp label .radio-text {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-radio-wrp .label-wrp input:checked + label > .red-round:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-select-wrp .custom-select {
+    width: 100% !important;
+    font-size: 20px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp input[type='radio'] {
+    opacity: 0;
+    display: none;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label {
+    cursor: pointer;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .digit {
+    width: 40px;
+    min-width: 25px;
+    height: 40px;
+    min-height: 25px;
+    font-size: 15px;
+    line-height: 43px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul {
+    list-style: none;
+    padding-left: 10px;
+    margin: 0;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li {
+    position: relative;
+    padding: 0px 5px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .range-question {
+    font-size: 18px;
+    min-width: 100%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .range-wrp {
+    margin-top: 10px;
+    min-width: 100%;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .point-range {
+    padding-top: 0px;
+  }
+  body #papa main.main form .submit-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 50px 0;
+  }
+  body #papa main.main .bottom-line {
+    margin: auto;
+    max-width: 80%;
+    margin-bottom: 80px;
+  }
+  body #papa footer.footer {
+    margin: 40px 0;
+  }
+}
+
+@media (max-width: 501px) {
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .digit {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 0px;
+  }
+  body #papa main.main .question-wrapper {
+    margin-top: 20px !important;
+  }
+  body #papa main.main form .question-wrapper .sub_question {
+    font-size: 15px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > h5 {
+    font-size: 18px;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 501px) {
+  body {
+    padding: 0px;
+  }
+  body #papa main.main .thanks-message {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 460px) {
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .point-range {
+    font-size: 10px;
+    padding: 0px 5px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-5-wrp .answer-item .label {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > h5 {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  body #papa main.main form .submit-wrapper input[type="submit"] {
+    min-width: 200px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont .question-block .radio_container .answer {
+    font-size: 13px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont .question-block .radio_container .checkmark {
+    top: 13px;
+    height: 10px;
+    width: 10px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont .question-block .radio_container input:checked ~ .checkmark:before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    left: calc( 49% - 6px);
+    top: calc( 44% - 6px);
+  }
+}
+
+@media (max-width: 956px) {
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 378px) {
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .digit {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 339px) {
+  body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .digit {
+    width: 22px;
+    height: 22px;
+    line-height: 26px;
+  }
+  body #papa main.main form .question-wrapper .question-title.flex-title {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 336px) {
+  body {
+    margin: 3px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
