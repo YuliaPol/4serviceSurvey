@@ -126,7 +126,7 @@ body #papa main.main form .question-wrapper label.error-label {
 }
 
 body #papa main.main form .question-wrapper .question-title.flex-title {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
   width: 100%;
   text-align: left;
@@ -586,6 +586,10 @@ body #papa main.main form .question-wrapper .answer-radio .radio-wrp.radio-wrp-r
   width: 100%;
 }
 
+body #papa main.main form .question-wrapper .answer-radio .radio-wrp.items25 .radio-item {
+  min-width: 25%;
+}
+
 body #papa main.main form .question-wrapper .answer-radio .radio-wrp .radio-item {
   padding-bottom: 10px;
   padding-right: 15px;
@@ -617,7 +621,7 @@ body #papa main.main form .question-wrapper .answer-radio .radio-wrp .radio-item
 body #papa main.main form .question-wrapper .answer-radio .radio-wrp .radio-item label {
   padding-left: 25px;
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   display: inline-block;
   cursor: pointer;
@@ -826,10 +830,15 @@ body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont >
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 16px;
+  font-size: 12px;
   padding-top: 15px;
   color: #909090;
   width: 100%;
+}
+
+body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .point-range span:nth-child(2) {
+  display: inline-block;
+  padding-left: 100px;
 }
 
 body #papa main.main form .question-wrapper .error-text {
@@ -993,7 +1002,7 @@ body #papa footer.footer .footer-logo-wrapper img {
 
 @media (max-width: 1440px) {
   body #papa {
-    max-width: 800px;
+    max-width: 700px;
   }
 }
 
@@ -1006,10 +1015,10 @@ body #papa footer.footer .footer-logo-wrapper img {
   body {
     font-family: "Montserrat";
     font-size: 27px;
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
   }
   body #papa {
-    max-width: 750px;
+    max-width: 650px;
     margin: auto;
   }
   body #papa header.header .wrp-top-text {
@@ -1446,6 +1455,9 @@ body #papa footer.footer .footer-logo-wrapper img {
     min-width: 150px;
     text-align: left;
   }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .point-range span:nth-child(2) {
+    padding-left: 70px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1732,6 +1744,9 @@ body #papa footer.footer .footer-logo-wrapper img {
   }
   body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul {
     padding-left: 0px;
+  }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .point-range span:nth-child(2) {
+    padding-left: 40px;
   }
 }
 

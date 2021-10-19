@@ -90,7 +90,7 @@ body {
             padding-left: 50px;
           }
           .question-title.flex-title {
-            font-size: 26px;
+            font-size: 20px;
             font-weight: bold;
             width: 100%;
             text-align: left;
@@ -429,6 +429,11 @@ body {
                   width: 100%;
                 }
               }
+              &.items25 {
+                .radio-item {
+                  min-width: 25%;
+                }
+              }
               .radio-item {
                 padding-bottom: 10px;
                 padding-right: 15px;
@@ -450,7 +455,7 @@ body {
                 label {
                   padding-left: 25px;
                   position: relative;
-                  font-size: 16px;
+                  font-size: 14px;
                   line-height: 18px;
                   display: inline-block;
                   cursor: pointer;
@@ -589,10 +594,16 @@ body {
                     .point-range{
                       display: flex;
                       justify-content: space-between;
-                      font-size: 16px;
+                      font-size: 12px;
                       padding-top: 15px;
                       color: #909090;
                       width: 100%;
+                      span {
+                        &:nth-child(2){
+                          display: inline-block;
+                          padding-left: 100px;
+                        }
+                      }
                     }
                   }
                 }
@@ -749,7 +760,7 @@ body {
 @media (max-width: 1440px){
   body{
     #papa {
-      max-width: 800px;
+      max-width: 700px;
     }
   }
 }
@@ -762,10 +773,10 @@ body {
   body {
     font-family: $fontFamily;
     font-size: 27px;
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
 
     #papa {
-      max-width: 750px;
+      max-width: 650px;
       margin: auto;
 
       header.header {
@@ -1216,6 +1227,9 @@ body {
       }
     }
   }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .point-range span:nth-child(2) {
+    padding-left: 70px;
+  }
 }
 @media (max-width: 576px) {
   body #papa main.main form .question-wrapper .answer-radio .radio-wrp .radio-item {
@@ -1522,6 +1536,10 @@ body {
   body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul{
     padding-left: 0px;
   }
+  body #papa main.main form .question-wrapper .anser-wrp.anser-range .range-cont > ul > li .range-question-wrapper .point-range span:nth-child(2) {
+    padding-left: 40px;
+  }
+
 }
 @media (max-width: 339px){
   body #papa main.main form .question-wrapper .anser-wrp.anser-raio-0-10-wrp label .digit{
