@@ -745,6 +745,13 @@ body {
     }
   }
 }
+@media (max-width: 1440px){
+  body{
+    #papa {
+      max-width: 800px;
+    }
+  }
+}
 @media (max-width: 1215px) {
   .anket-done {
     height: calc(100vh - 100px);
@@ -757,7 +764,7 @@ body {
     padding: 50px;
 
     #papa {
-      max-width: 926px;
+      max-width: 750px;
       margin: auto;
 
       header.header {

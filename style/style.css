@@ -1,4 +1,4 @@
-@import url(c:\Users\user\Documents\spectra\4serviceSurvey\4ServiceSurvey\font\Montserrat\stylesheet.css);
+@import "../font/Montserrat/stylesheet.css";
 textarea,
 select,
 input {
@@ -986,6 +986,12 @@ body #papa footer.footer .footer-logo-wrapper img {
   line-height: 36px;
 }
 
+@media (max-width: 1440px) {
+  body #papa {
+    max-width: 800px;
+  }
+}
+
 @media (max-width: 1215px) {
   .anket-done {
     height: calc(100vh - 100px);
@@ -998,7 +1004,7 @@ body #papa footer.footer .footer-logo-wrapper img {
     padding: 50px;
   }
   body #papa {
-    max-width: 926px;
+    max-width: 750px;
     margin: auto;
   }
   body #papa header.header .wrp-top-text {
