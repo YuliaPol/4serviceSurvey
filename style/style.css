@@ -1,4 +1,4 @@
-@import "../font/Montserrat/stylesheet.css";
+@import url(c:\Users\user\Documents\spectra\4serviceSurvey\4ServiceSurvey\font\Montserrat\stylesheet.css);
 textarea,
 select,
 input {
@@ -113,6 +113,11 @@ body #papa main.main .title-line {
   margin: auto;
   max-width: 60%;
   margin-bottom: 40px;
+}
+
+body #papa main.main form .question-wrapper {
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 body #papa main.main form .question-wrapper label.error-label {
